@@ -10,7 +10,7 @@
     outline: none !important;
 }
 .custom_btn .btn_icon_container{
-    color: black !important;
+    color: darkslategray !important;
     background: white  !important;
     border-radius: 50px !important;
     height: 27px !important;
@@ -28,6 +28,7 @@
     width: 100px !important;
     margin-left: 5px !important;
     margin-right: 5px !important;
+    color: rgb(40, 114, 114) !important;
 }
 
 .custom_btn .btn_icon_container > .MuiSvgIcon-root{

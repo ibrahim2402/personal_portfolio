@@ -49,7 +49,7 @@
     color:var(--min-color);
 }
 .timelineItem_text > span{
-    color: black;
+    color: #202020;
 }
 .profile .button_container{
     width: 100%;
