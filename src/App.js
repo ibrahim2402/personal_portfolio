@@ -11,6 +11,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import './App.css';
 
+// Developed by Olakunle Ibrahim
+
 function App() {
   return (
     <Container className={'app_container'}>
@@ -21,7 +23,8 @@ function App() {
         <Grid item xs >
         <Router>
           <Header/>
-            <Switch>
+          <div className= 'main_content container_shadow'>
+          <Switch>
             <Route path="/portfolio">
               <Portfolio/>
               </Route>
@@ -29,6 +32,7 @@ function App() {
               <Resume/>
               </Route>
             </Switch>
+          </div>     
           </Router>  
           <Footer/>
         </Grid>
@@ -38,3 +42,5 @@ function App() {
 };
 
 export default App;
+
+/* Credit to @Salman Fazal */
