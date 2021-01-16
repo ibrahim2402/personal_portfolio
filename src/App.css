@@ -53,3 +53,6 @@
      left: 0;
      background-color: var(--min-color);
 }
+.bgccolor{
+     background-color: #fafafa !important;
+}

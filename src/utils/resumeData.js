@@ -1,6 +1,7 @@
 import React from 'react';
 import LinkedlnIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import WebOutlinedIcon from '@material-ui/icons/WebOutlined';
 
 
 export default{
@@ -62,6 +63,61 @@ export default{
             degree: 'Diploma In Computer Science'
         }
        
+    ],
+    certificates: [
+        {
+            title: 'Digital Marketing Certificate, Google Fundamental Digital Marketing',
+            date:  'May 2019'
+        },
+        {
+            title: 'Data Engineering with Google Cloud',
+            date:  ' Expected completion data -  Apr 2021'
+        }
+
+    ],
+
+    services:[
+        {
+           title: 'App Dev',
+           desc: 'I am a developer',
+           icon: <WebOutlinedIcon/>
+        },
+        {
+            title: 'Data Analysis',
+            desc: 'I am a data analyst',
+            icon: <WebOutlinedIcon/>
+         },
+         {
+            title: 'Database',
+            desc: 'I am a database administrator',
+            icon: <WebOutlinedIcon/>
+         }
+    ],
+    skills: [
+        {
+            title: 'Programming', 
+            type: ['Java', 'C#', 'JavaScript','Python']    
+        },
+        {
+            title: 'Dev Framework', 
+            type: ['React.js', 'Vue.js','Android Studio']     
+        },
+        {
+            title: 'Database', 
+            type: ['MySQL', 'NoSQL', 'MongoDB']    
+        },
+        {
+            title: 'Data Engineering', 
+            type: [ 'BigQuery', 'Tensorflow', 'GCP']    
+        },
+        {
+            title: 'Analytic Tools', 
+            type: ['Power BI', 'Qlik','Excel','Tensorflow']    
+        },
+        {
+            title: 'Cloud Computing', 
+            type: ['Google Cloud','Azure']    
+        }
     ]
 
 };

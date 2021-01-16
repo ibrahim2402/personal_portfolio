@@ -14,7 +14,7 @@ const Header = (props) => {
     return(
         <Navbar className='header' expand="lg" sticky='top'>
            
-           <Nav.Link as={NavLink} to='/' className='header_navlink'>
+           <Nav.Link as={NavLink} to='/home' className={pathName == '/home' ? 'header_link_active' : 'header_link'}>
                <Navbar.Brand className='header_home' icon={<HomeRounded/>}>
                    <HomeRounded/>
                </Navbar.Brand>
@@ -30,7 +30,7 @@ const Header = (props) => {
              <Nav.Link as={NavLink} to='/portfolio' className={pathName == '/portfolio' ? 'header_link_active' : 'header_link'}>
              Portfolio</Nav.Link>
 
-             <Nav.Link as={NavLink} to='/contact' className={pathName == '/contact' ? 'header_link_active' : 'header_link'}>
+             <Nav.Link as={NavLink} to='/home' className={pathName == '/home' ? 'header_link_active' : 'header_link'}>
              Contact</Nav.Link>
         
          </Nav>

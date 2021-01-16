@@ -6,6 +6,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Resume from './pages/Resume/Resume'
 import Portfolio from './pages/Portfolio/Portfolio'
+import Home from './pages/Home/Home'
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
@@ -28,7 +29,10 @@ function App() {
             <Route path="/portfolio">
               <Portfolio/>
               </Route>
-            <Route path="/">
+            <Route path="/home">
+              <Home/>
+              </Route>
+              <Route path="/">
               <Resume/>
               </Route>
             </Switch>
