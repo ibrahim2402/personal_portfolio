@@ -12,7 +12,7 @@ const Header = (props) => {
     const pathName = props?.location?.pathname
 
     return(
-        <Navbar className='header' expand="lg" sticky='top'>
+        <Navbar className='header' expand="lg" >
            
            <Nav.Link as={NavLink} to='/home' className={pathName == '/home' ? 'header_link_active' : 'header_link'}>
                <Navbar.Brand className='header_home' icon={<HomeRounded/>}>

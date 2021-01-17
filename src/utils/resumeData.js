@@ -6,6 +6,9 @@ import BookIcon from '@material-ui/icons/Book';
 import VideogameAssetIcon from '@material-ui/icons/VideogameAsset';
 import SportsSoccerIcon from '@material-ui/icons/SportsSoccer';
 import ExploreIcon from '@material-ui/icons/Explore';
+import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
+import ShowChartIcon from '@material-ui/icons/ShowChart';
+import StorageIcon from '@material-ui/icons/Storage';
 
 
 export default{
@@ -85,17 +88,17 @@ export default{
         {
            title: 'Developer',
            desc: 'I am a software and system developer',
-           icon: <WebOutlinedIcon/>
+           icon: <DeveloperModeIcon/>
         },
         {
             title: 'Analyst',
             desc: 'I am a data and business analyst',
-            icon: <WebOutlinedIcon/>
+            icon: <ShowChartIcon/>
          },
          {
             title: 'Database',
             desc: 'I am a database administrator',
-            icon: <WebOutlinedIcon/>
+            icon: <StorageIcon/>
          }
     ],
     skills: [
