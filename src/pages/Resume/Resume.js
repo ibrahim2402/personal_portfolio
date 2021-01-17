@@ -1,11 +1,12 @@
 import React from 'react';
-import {Grid, Icon, Paper, Typography} from '@material-ui/core';
+import {Grid, Icon, Paper, TextField, Typography} from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 import CustomTimeline from '../../components/Timeline/Timeline';
 import { CustomTimelineSeparator } from '../../components/Timeline/Timeline';
 import WorkIcon from '@material-ui/icons/Work';
 import SchoolIcon from '@material-ui/icons/School';
 import CardMembershipIcon from '@material-ui/icons/CardMembership';
+import CustomButton from '../../components/Button/Button'
 
 
 import './Resume.css';
@@ -96,8 +97,9 @@ const Resume = () => {
             </Grid>
         </Grid>
 
-        <Grid container className='section bgcolor'>
+        <Grid container className='section bgcolor paddingtop_abtme'>
         <Grid item className='section_title marginbottom_abtme'>
+            
                 <span></span>
                 <h6 className=''>Skills</h6>
             </Grid>
@@ -120,9 +122,6 @@ const Resume = () => {
             </Grid>
         </Grid>
 
-        <Grid container className='section'>
-
-        </Grid>
         
     </>
         

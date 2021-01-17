@@ -2,6 +2,10 @@ import React from 'react';
 import LinkedlnIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import WebOutlinedIcon from '@material-ui/icons/WebOutlined';
+import BookIcon from '@material-ui/icons/Book';
+import VideogameAssetIcon from '@material-ui/icons/VideogameAsset';
+import SportsSoccerIcon from '@material-ui/icons/SportsSoccer';
+import ExploreIcon from '@material-ui/icons/Explore';
 
 
 export default{
@@ -9,6 +13,7 @@ export default{
     title: 'Software | Data Engineer',
     phone: '0736565835',
     email: 'klexy2402@gmail.com',
+    address: 'Björkhultsvägen 6A, 63229 Eskilstuna. Sweden',
 
     socials: {
         Linkedln:{
@@ -22,7 +27,7 @@ export default{
             icon: <GitHubIcon/>
         }
     },
-    about: 'Experienced in design implementation, installation, testing and maintenance of software systems. Proficient in different development platforms,programming languages, and information system management. \n\n Experienced with the latest development tools and procedures. Able to effectively selfmanage during independent projects, as well as collaborate as part of a productive team.',
+    about: 'Experienced in design, implementation, installation, testing and maintenance of software systems. Proficient in different development platforms, programming languages, and information system management. \n\n Experienced with the latest development tools, technologies and procedures. Able to effectively selfmanage during independent projects, as well as collaborate as part of a productive team. \n\n I am good communicator with proven inter-personal skills, highly enthusiastic to learn and undertake new challenges. I speak English as a first language with a working knowledge in Swedish language and possess a full Swedish driving licence class B.',
 
     employments:[
         {
@@ -78,13 +83,13 @@ export default{
 
     services:[
         {
-           title: 'App Dev',
-           desc: 'I am a developer',
+           title: 'Developer',
+           desc: 'I am a software and system developer',
            icon: <WebOutlinedIcon/>
         },
         {
-            title: 'Data Analysis',
-            desc: 'I am a data analyst',
+            title: 'Analyst',
+            desc: 'I am a data and business analyst',
             icon: <WebOutlinedIcon/>
          },
          {
@@ -99,7 +104,7 @@ export default{
             type: ['Java', 'C#', 'JavaScript','Python']    
         },
         {
-            title: 'Dev Framework', 
+            title: 'Dev-Framework', 
             type: ['React.js', 'Vue.js','Android Studio']     
         },
         {
@@ -112,12 +117,34 @@ export default{
         },
         {
             title: 'Analytic Tools', 
-            type: ['Power BI', 'Qlik','Excel','Tensorflow']    
+            type: ['Power BI', 'Qlik','Excel']    
         },
         {
             title: 'Cloud Computing', 
             type: ['Google Cloud','Azure']    
         }
-    ]
+    ],
+    hobbies:[
+        {
+           title: 'Reading',
+           desc: 'I am a software developer',
+           icon: <BookIcon/>
+        },
+        {
+            title: 'Chess Game',
+            desc: 'I am a data and business analyst',
+            icon: <VideogameAssetIcon/>
+         },
+         {
+            title: 'Football',
+            desc: 'I am a database administrator',
+            icon: <SportsSoccerIcon/>
+         },
+         {
+            title: 'Traveling',
+            desc: 'I am a database administrator',
+            icon: <ExploreIcon/>
+         }
+    ] 
 
 };

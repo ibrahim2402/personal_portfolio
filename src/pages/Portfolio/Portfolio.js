@@ -4,7 +4,7 @@ const Portfolio = () => {
 
     return(
         <div>
-            This is the portfolio
+            ...temporarily unavailable!
         </div>
     )
 }
