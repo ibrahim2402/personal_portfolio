@@ -9,6 +9,10 @@ import ExploreIcon from '@material-ui/icons/Explore';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import ShowChartIcon from '@material-ui/icons/ShowChart';
 import StorageIcon from '@material-ui/icons/Storage';
+import LundImg from '../assets/Images/lundUnilogo.jpg'
+import HkrImg from '../assets/Images/KristianstadUni_logo.png'
+import CertImg from '../assets/Images/cert_logo.png'
+import ProjectImg from '../assets/Images/profCert_logo.jpg'
 
 
 export default{
@@ -74,12 +78,12 @@ export default{
     ],
     certificates: [
         {
-            title: 'Digital Marketing Certificate, Google Fundamental Digital Marketing',
-            date:  'May 2019'
+            title: 'Data Engineering with Google Cloud',
+            date:  ' Expected completion data -  Mar 2021'
         },
         {
-            title: 'Data Engineering with Google Cloud',
-            date:  ' Expected completion data -  Apr 2021'
+            title: 'Digital Marketing Certificate, Google Fundamental Digital Marketing',
+            date:  'May 2019'
         }
 
     ],
@@ -119,7 +123,7 @@ export default{
             type: [ 'BigQuery', 'Tensorflow', 'GCP']    
         },
         {
-            title: 'Analytic Tools', 
+            title: 'Analytics Tool', 
             type: ['Power BI', 'Qlik','Excel']    
         },
         {
@@ -148,6 +152,143 @@ export default{
             desc: 'I am a database administrator',
             icon: <ExploreIcon/>
          }
-    ] 
+    ],
+    portfolio:[
+        {
+            course: 'Master',
+            image: <LundImg/>,
+            title: 'Strtegic Management & Information System'
+        },
+        {
+            course: 'Master',
+            image: <LundImg/>,
+            title: 'IT, Innovation & Sustainability'
+        },
+        {
+            course: 'Master',
+            image: <LundImg/>,
+            title: 'Business Intelligence'
+        },
+        {
+            course: 'Master',
+            image: <LundImg/>,
+            title: 'Research Methods'
+        },
+        {
+            course: 'Master',
+            image: <LundImg/>,
+            title: 'Business & Artificial Intelligence'
+        },
+        {
+            course: 'Master',
+            image: <LundImg/>,
+            title: 'Designing Digitalisation'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Software Development Cloud (C#)'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Software Development Web (JavaScript)'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Fundametal Programming - Java'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Software Engineering 2'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Software Engineering 1'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Database Technique'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Algorithms & Data Structures'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Development For Mobile Platforms'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Entrepreneurship & Innovation'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Network Application'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Computer Security'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Digital Electronic System Design'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Data Communication'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Discrete Mathematics'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Operating System'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Mathematics with Computerbased Application'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Object-Oriented Programming'
+        },
+        {
+            course: 'Bachelor',
+            image: <HkrImg/>,
+            title: 'Intro Computer Science'
+        },
+        {
+            course: 'Certified',
+            image: <CertImg/>,
+            title: 'Data Engineering with Google Cloud'
+        },
+        {
+            course: 'Certified',
+            image: <CertImg/>,
+            title: 'Google Fundamental Digital Marketing'
+        },
+        {
+            course: 'Projects',
+            image: <ProjectImg/>,
+            title: 'University Projects'
+        }
+    ]
 
 };

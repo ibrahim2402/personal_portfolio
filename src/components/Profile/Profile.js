@@ -1,4 +1,6 @@
-import React from 'react';
+import React  from 'react';
+import {useState} from 'react'
+import {Document, Page} from 'react-pdf'
 import {Typography} from '@material-ui/core';
 import profilePicture from '../../assets/Images/profileImage.jpg';
 import CustomTimeline from '../Timeline/Timeline';
@@ -7,6 +9,7 @@ import CustomButton from '../Button/Button';
 import GetAppIcon from '@material-ui/icons/GetApp';
 
 import resumeData from '../../utils/resumeData';
+import PDF from '../../utils/CV_Ibrahim_21.pdf'
 
 import './Profile.css';
 import TimelineItem from '@material-ui/lab/TimelineItem';
@@ -27,6 +30,38 @@ const CustomTimelineItem = ({title, text, link}) => {
     </TimelineItem>
     )
     
+};
+
+const CvDownload = () =>{
+    return(
+        <embed src={PDF} 
+        type="application/pdf" 
+        style={{height: "800px", width:"500px"}} 
+        />
+    )
+};
+
+const CvDownload_2 = () => {
+
+    const [numPages, setNumPages] = useState(null);
+  const [pageNumber, setPageNumber] = useState(1);
+
+  function onDocumentLoadSuccess({ numPages }) {
+    setNumPages(numPages);
+  }
+    return(
+        <div>
+
+    <Document
+        file="../../utils/CV_Ibrahim_21.pdf"
+        onLoadSuccess={onDocumentLoadSuccess}
+      >
+        <Page pageNumber={pageNumber} />
+      </Document>
+      <p>Page {pageNumber} of {numPages}</p>
+
+        </div>
+    )
 };
 
 const Profile = () => {
@@ -51,10 +86,15 @@ const Profile = () => {
                           <CustomTimelineItem title={key} text={resumeData.socials[key].text} link={resumeData.socials[key].link}/>
     ))}
                 </CustomTimeline>
-                <div className='button_container'>
-                <CustomButton text={'Download Cv'} icon={<GetAppIcon/>} ></CustomButton>
-                </div>
+            <div className='button_container'>
+
               
+                <CustomButton text={'Download Cv'} icon={<GetAppIcon/>} > 
+                                     
+                </CustomButton>  
+
+                       
+            </div>  
            </div>
         </div>
     );
