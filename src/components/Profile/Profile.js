@@ -88,12 +88,11 @@ const Profile = () => {
                 </CustomTimeline>
             <div className='button_container'>
 
-              
-                <CustomButton text={'Download Cv'} icon={<GetAppIcon/>} > 
-                                     
-                </CustomButton>  
+              <a href={PDF} download='Ibrahim_Cv_21' >
+              <CustomButton text={'Download Cv'} icon={<GetAppIcon/>} > 
+             </CustomButton>
+              </a>
 
-                       
             </div>  
            </div>
         </div>
