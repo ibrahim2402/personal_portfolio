@@ -3,7 +3,9 @@ import {Button} from '@material-ui/core';
 
 import {saveAs} from 'file-saver';
 import {pdf, Document, Page, Text} from '@react-pdf/renderer';
-import {useState} from 'react'
+import {useState} from 'react';
+import {pdfjs} from 'react-pdf';
+
 
 import './Button.css';
 import PDF from '../../utils/Ibrahim_Cv_21.pdf';
