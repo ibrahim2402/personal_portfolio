@@ -79,7 +79,7 @@ export default{
     certificates: [
         {
             title: 'Data Engineering with Google Cloud',
-            date:  ' Expected completion data -  Mar 2021'
+            date:  ' Expected completion date -  Mar 2021'
         },
         {
             title: 'Digital Marketing Certificate, Google Fundamental Digital Marketing',
@@ -90,17 +90,17 @@ export default{
 
     services:[
         {
-           title: 'Developer',
+           title: 'Develop',
            desc: 'I am a software and system developer',
            icon: <DeveloperModeIcon/>
         },
         {
-            title: 'Analyst',
+            title: 'Analyse',
             desc: 'I am a data and business analyst',
             icon: <ShowChartIcon/>
          },
          {
-            title: 'Database',
+            title: 'Administrate',
             desc: 'I am a database administrator',
             icon: <StorageIcon/>
          }
@@ -157,7 +157,7 @@ export default{
         {
             course: 'Master',
             image: <LundImg/>,
-            title: 'Strtegic Management & Information System'
+            title: 'Strategic Management & Information System'
         },
         {
             course: 'Master',
@@ -285,7 +285,7 @@ export default{
             title: 'Google Fundamental Digital Marketing'
         },
         {
-            course: 'Projects',
+            course: 'Project',
             image: <ProjectImg/>,
             title: 'University Projects'
         }

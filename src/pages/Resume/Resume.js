@@ -78,7 +78,7 @@ const Resume = () => {
         <Grid container className='section'>
         <Grid item className='section_title marginbottom_abtme'>
                 <span></span>
-                <h6 className=''>My Job</h6>
+                <h6 className=''>Competencies</h6>
             </Grid>
 
             <Grid item xs={12}>

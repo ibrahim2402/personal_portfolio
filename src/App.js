@@ -29,7 +29,7 @@ function App() {
             <Route path="/portfolio">
               <Portfolio/>
               </Route>
-            <Route path="/home">
+            <Route path="/about">
               <Home/>
               </Route>
               <Route path="/">
@@ -48,3 +48,4 @@ function App() {
 export default App;
 
 /* Credit to @Salman Fazal */
+/* Cloned designed from tavonline */
