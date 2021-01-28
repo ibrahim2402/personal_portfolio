@@ -112,7 +112,7 @@ export default{
         },
         {
             title: 'Dev-Framework', 
-            type: ['React.js', 'Vue.js', 'Node.js', 'Android Studio']     
+            type: ['React.js', 'Vue.js', 'Node.js', 'Android Studio', 'Spring Boot & JPA']     
         },
         {
             title: 'Database', 
