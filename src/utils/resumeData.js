@@ -124,7 +124,7 @@ export default{
         },
         {
             title: 'Analytics Tool', 
-            type: ['Power BI', 'Qlik','Excel']    
+            type: ['Power BI', 'Qlik', 'KNIME', 'Excel']    
         },
         {
             title: 'Cloud Computing', 
