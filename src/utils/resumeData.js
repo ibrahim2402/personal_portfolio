@@ -79,7 +79,11 @@ export default{
     certificates: [
         {
             title: 'Data Engineering with Google Cloud',
-            date:  ' Expected completion date -  Mar 2021'
+            date:  'Expected completion date -  July 2021'
+        },
+        {
+            title: 'AWS Certified Solutions Architect - Associate',
+            date:  'Expected completion date -  July 2021'
         },
         {
             title: 'Digital Marketing Certificate, Google Fundamental Digital Marketing',
@@ -124,11 +128,11 @@ export default{
         },
         {
             title: 'Analytics Tool', 
-            type: ['Power BI', 'Qlik', 'KNIME', 'Excel']    
+            type: ['Power BI', 'Qlik', 'KNIME - Machine Learning', 'Excel']    
         },
         {
             title: 'Cloud Computing', 
-            type: ['Google Cloud','Azure']    
+            type: ['Google Cloud','Azure', 'AWS']    
         }
     ],
     hobbies:[
