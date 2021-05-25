@@ -8,6 +8,7 @@ import SportsSoccerIcon from '@material-ui/icons/SportsSoccer';
 import ExploreIcon from '@material-ui/icons/Explore';
 import DeveloperModeIcon from '@material-ui/icons/DeveloperMode';
 import ShowChartIcon from '@material-ui/icons/ShowChart';
+import CloudIcon from '@material-ui/icons/Cloud';
 import StorageIcon from '@material-ui/icons/Storage';
 import LundImg from '../assets/Images/lundUnilogo.jpg'
 import HkrImg from '../assets/Images/KristianstadUni_logo.png'
@@ -78,11 +79,11 @@ export default{
     ],
     certificates: [
         {
-            title: 'Data Engineering with Google Cloud',
-            date:  'Expected completion date -  July 2021'
+            title: 'AWS Certified Solutions Architect - Associate',
+            date:  'Expected completion date -  August 2021'
         },
         {
-            title: 'AWS Certified Solutions Architect - Associate',
+            title: 'Data Engineering with Google Cloud',
             date:  'Expected completion date -  July 2021'
         },
         {
@@ -102,6 +103,11 @@ export default{
             title: 'Analyse',
             desc: 'I am a data and business analyst',
             icon: <ShowChartIcon/>
+         },
+         {
+            title: 'Architecture',
+            desc: 'I am a solution architect',
+            icon: <CloudIcon/>
          },
          {
             title: 'Administrate',
