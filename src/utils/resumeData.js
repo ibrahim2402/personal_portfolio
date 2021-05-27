@@ -301,7 +301,32 @@ export default{
         {
             course: 'Project',
             image: <ProjectImg/>,
-            title: 'University Projects'
+            title: 'Foodieline App - Course Project'
+        },
+        {
+            course: 'Project',
+            image: <ProjectImg/>,
+            title: 'HKIF App - Course Project'
+        },
+        {
+            course: 'Project',
+            image: <ProjectImg/>,
+            title: 'Responsible Citizen App - Course Project'
+        },
+        {
+            course: 'Project',
+            image: <ProjectImg/>,
+            title: 'SmartHouse App - Course Project'
+        },
+        {
+            course: 'Project',
+            image: <ProjectImg/>,
+            title: 'Data Training & Modelling - ML Project'
+        },
+        {
+            course: 'Project',
+            image: <ProjectImg/>,
+            title: 'Data Analysis & Visualization - BI Project'
         }
     ]
 
