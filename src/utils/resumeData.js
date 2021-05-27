@@ -83,6 +83,10 @@ export default{
             date:  'Expected completion date -  August 2021'
         },
         {
+            title: 'Salesforce Certified Platform Developer 1',
+            date:  'Expected completion date -  August 2021'
+        },
+        {
             title: 'Data Engineering with Google Cloud',
             date:  'Expected completion date -  July 2021'
         },
