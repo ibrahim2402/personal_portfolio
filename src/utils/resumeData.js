@@ -41,7 +41,7 @@ export default{
         {
             firm: 'Cashier/ Assistant at Hubertus Restaurant Stockholm',
             date: 'Aug 2015 - Dec 2016',
-            desc: 'Worked productively with Restaurant Team to provide better customer service experience. Effectively service delivery under pressure. Worked to ensure customer satisfaction at all time.'
+            desc: 'Worked productively with Restaurant Team to provide better customer service experience and ensure customer satisfaction at all time.'
         },
         {
             firm: 'Local Assistant at EFMAB, Stockholm',
@@ -49,14 +49,29 @@ export default{
             desc: 'Cleaning and hall management'
         },
         {
-            firm: 'Special Assistant, Legislative Arm at Legislator, House of Representative, Lagos/ Abuja',
-            date: 'Jun 2009 - May 2012',
-            desc: 'Coordinates youth empowerment and development programs. Special duties and social engagement. Successfully managed publicity and enlighten services.'
+            firm: 'Computer Specialist at Softline Communication Company, Ado Odo/Ota',
+            date: 'Jun 2006 - Jun 2012',
+            desc: 'Worked on data input and electronic data transfer. Bulk messaging and emailing. Ensuring database security and integrity. Develop IT equipment, process related documents and system applications'
         },
         {
             firm: 'Production Manager at Narconon Nigeria, Lagos',
             date: 'Jun 2007 - May 2012',
-            desc: 'Worked to ensure plans execution and task delivery. Developed strategies for events and productivity. Ensured widely spread campaign for achieving success and effectiveness'
+            desc: 'Worked to ensure plans execution and task delivery. Developed strategies for events and productivity, and project lead.'
+        },
+        {
+            firm: 'Special Assistant, Legislative Arm at Legislator, House of Representative, Lagos/ Abuja',
+            date: 'Jun 2009 - May 2012',
+            desc: 'Coordinates youth empowerment and development programs. Special duties and social engagement.'
+        },
+        {
+            firm: 'System Administrator at Expert Services, Lagos',
+            date: 'Jun 2004 - June 2006',
+            desc: 'Install, upgrade and monitor software, hardware and networks. Monitoring system performance and troubleshooting issues.'
+        },
+        {
+            firm: 'Hardware Software Technician at YNS Technology, Lagos',
+            date: 'Apr 2003 - May 2004',
+            desc: 'Support and maintain in-house technology equipment and IT systems. Configuring, diagnosing and repairing hardware equipment and software application to ensure optimal performance.'
         }
     ],
     institutions:[
@@ -299,6 +314,16 @@ export default{
             title: 'Google Fundamental Digital Marketing'
         },
         {
+            course: 'Certified',
+            image: <CertImg/>,
+            title: 'AWS Certified Solutions Architect (Associate) - Training'
+        },
+        {
+            course: 'Certified',
+            image: <CertImg/>,
+            title: 'Salesforce Certified Platform Developer 1 - Training'
+        },
+        {
             course: 'Project',
             image: <ProjectImg/>,
             title: 'Foodieline App - Course Project'
@@ -327,6 +352,16 @@ export default{
             course: 'Project',
             image: <ProjectImg/>,
             title: 'Data Analysis & Visualization - BI Project'
+        },
+        {
+            course: 'Project',
+            image: <ProjectImg/>,
+            title: 'Develop Model for Multiple System Integration through API  - Thesis Project with IT Company'
+        },
+        {
+            course: 'Project',
+            image: <ProjectImg/>,
+            title: 'Data Driven Decision Making Culture in Tourism Management - Thesis Project with National Park'
         }
     ]
 
