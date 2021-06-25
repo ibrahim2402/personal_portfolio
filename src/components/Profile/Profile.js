@@ -12,7 +12,7 @@ import {pdf} from '@react-pdf/renderer';
 import {saveAs} from 'file-saver';
 
 import resumeData from '../../utils/resumeData';
-import PDF from '../../utils/Ibrahim_Cv_21.pdf';
+import PDF from '../../utils/Ola_CV_2021.pdf';
 
 import './Profile.css';
 import TimelineItem from '@material-ui/lab/TimelineItem';
