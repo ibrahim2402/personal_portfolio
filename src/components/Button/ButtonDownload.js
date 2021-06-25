@@ -8,7 +8,7 @@ import {pdfjs} from 'react-pdf';
 
 
 import './Button.css';
-import PDF from '../../utils/Ibrahim_Cv_21.pdf';
+import PDF from '../../utils/Ola_CV_2021.pdf';
 
 
 const DocumentPdf = ({someString}) => {
@@ -23,7 +23,7 @@ const DocumentPdf = ({someString}) => {
     setNumPages(numPages);
   }
   return(
-    <Document file='../../utils/Ibrahim_Cv_21.pdf'
+    <Document file='../../utils/Ola_CV_2021.pdf'
     onLoadSuccess={onDocumentLoadSuccess} >
       <Page pageNumber={pageNumber} >
       <Text>Hey look at this string: {someString}</Text>
