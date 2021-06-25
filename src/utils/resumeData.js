@@ -39,9 +39,9 @@ export default{
 
     employments:[
         {
-            firm: 'Cashier/ Assistant at Hubertus Restaurant Stockholm',
+            firm: 'Cashier/ Assistant / IT Support at Hubertus Restaurant Stockholm',
             date: 'Aug 2015 - Dec 2016',
-            desc: 'Worked productively with Restaurant Team to provide better customer service experience and ensure customer satisfaction at all time.'
+            desc: 'Worked productively with Restaurant Team to provide better customer service experience and ensure customer satisfaction at all time. Booking and mailing correspondences'
         },
         {
             firm: 'Local Assistant at EFMAB, Stockholm',
