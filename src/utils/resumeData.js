@@ -39,6 +39,11 @@ export default{
 
     employments:[
         {
+            firm: 'Software / Data Specialist at TISV Digital Atlanta, Georgia',
+            date: 'Dec 2018 - Present',
+            desc: 'Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Performing continuous integration and delivery of product quality. Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis.Working with clients to gather requirements. Agile methodology'
+        },
+        {
             firm: 'Cashier/ Assistant / IT Support at Hubertus Restaurant Stockholm',
             date: 'Aug 2015 - Dec 2016',
             desc: 'Worked productively with Restaurant Team to provide better customer service experience and ensure customer satisfaction at all time. Booking and mailing correspondences'
@@ -141,7 +146,7 @@ export default{
         },
         {
             title: 'Dev-Framework', 
-            type: ['React.js', 'Vue.js', 'Node.js', 'Android Studio', 'Spring Boot & JPA']     
+            type: ['React.js', 'Vue.js', 'Node.js', 'Android Studio', 'Spring Boot & JPA', 'Selenium', 'TeamCity', 'Jenkins', 'Ghostlab']     
         },
         {
             title: 'Database', 
