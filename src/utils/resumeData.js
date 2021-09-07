@@ -35,16 +35,16 @@ export default{
             icon: <GitHubIcon/>
         }
     },
-    about: 'Experienced in design, implementation, installation, testing and maintenance of software systems. Proficient in different development platforms, programming languages, and information system management. \n\n Experienced with the latest development tools, technologies and procedures. Able to effectively selfmanage during independent projects, as well as collaborate as part of a productive team. \n\n I am good communicator with proven inter-personal skills, highly enthusiastic to learn and undertake new challenges. I speak English as a first language with a working knowledge in Swedish language and possess a full Swedish driving licence class B.',
+    about: 'Experienced in design, implementation, installation, testing, QA, and maintenance of software systems. Proficient in different development platforms, programming languages, and information system management. \n\n Experienced with the latest development tools, technologies and procedures. Able to effectively selfmanage during independent projects, as well as collaborate as part of a productive team. \n\n I am good communicator with proven inter-personal skills, highly enthusiastic to learn and undertake new challenges. I speak English as a first language with a working knowledge in Swedish language and possess a full Swedish driving licence class B.',
 
     employments:[
         {
             firm: 'Software / Data Specialist at TISV Digital Atlanta, Georgia',
             date: 'Dec 2018 - Present',
-            desc: 'Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Performing continuous integration and delivery of product quality. Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis.Working with clients to gather requirements. Agile methodology'
+            desc: 'Quality Assurance Analyst (June,2019 -  Dec.,2019). \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Performing continuous integration and delivery of product quality. Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis.Working with clients to gather requirements. Agile methodology'
         },
         {
-            firm: 'Cashier/ Assistant / IT Support at Hubertus Restaurant Stockholm',
+            firm: 'Cashier/ Assistant / IT Specialist at Hubertus Restaurant Stockholm',
             date: 'Aug 2015 - Dec 2016',
             desc: 'Worked productively with Restaurant Team to provide better customer service experience and ensure customer satisfaction at all time. Booking and mailing correspondences'
         },
@@ -99,16 +99,16 @@ export default{
     ],
     certificates: [
         {
-            title: 'AWS Certified Solutions Architect - Associate',
-            date:  'Expected completion date -  August 2021'
+            title: 'Secure Software Development Fundamentals - LinuxFoundationX',
+            date:  'Expected completion date -  February 2022'
         },
         {
-            title: 'Salesforce Certified Platform Developer 1',
-            date:  'Expected completion date -  August 2021'
+            title: 'Unlocking Information Security - TelAvivUniversityX',
+            date:  'Expected completion date -  December 2021'
         },
         {
             title: 'Data Engineering with Google Cloud',
-            date:  'Expected completion date -  July 2021'
+            date:  'Expected completion date -  November 2021'
         },
         {
             title: 'Digital Marketing Certificate, Google Fundamental Digital Marketing',
