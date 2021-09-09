@@ -41,7 +41,7 @@ export default{
         {
             firm: 'Software / Data Specialist at TISV Digital Atlanta, Georgia',
             date: 'Dec 2018 - Present',
-            desc: 'Quality Assurance Analyst (June,2019 -  Dec.,2019). \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Performing continuous integration and delivery of product quality. Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis.Working with clients to gather requirements. Agile methodology'
+            desc: 'Quality Assurance Analyst (June,2019 -  Dec.,2019). \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Application Backend (Java, JavaScript). Performing continuous integration and delivery of product quality. Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis.Working with clients to gather requirements. Agile methodology'
         },
         {
             firm: 'Cashier/ Assistant / IT Specialist at Hubertus Restaurant Stockholm',
@@ -56,7 +56,7 @@ export default{
         {
             firm: 'Computer Specialist at Softline Communication Company, Ado Odo/Ota',
             date: 'Jun 2006 - Jun 2012',
-            desc: 'Worked on data input and electronic data transfer. Bulk messaging and emailing. Ensuring database security and integrity. Develop IT equipment, process related documents and system applications'
+            desc: 'Worked on data input and electronic data transfer. System backend (C#, Java). Bulk messaging and emailing. Ensuring database security and integrity. Develop IT equipment, process related documents and system applications'
         },
         {
             firm: 'Production Manager at Narconon Nigeria, Lagos',
