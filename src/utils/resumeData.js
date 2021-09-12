@@ -311,7 +311,7 @@ export default{
         {
             course: 'Certified',
             image: <CertImg/>,
-            title: 'Data Engineering with Google Cloud'
+            title: 'Data Engineering with Google Cloud (On-going)'
         },
         {
             course: 'Certified',
@@ -321,12 +321,12 @@ export default{
         {
             course: 'Certified',
             image: <CertImg/>,
-            title: 'AWS Certified Solutions Architect (Associate) - Training'
+            title: 'Unlocking Information Security - TelAvivUniversityX (On-going)'
         },
         {
             course: 'Certified',
             image: <CertImg/>,
-            title: 'Salesforce Certified Platform Developer 1 - Training'
+            title: 'Secure Software Deveopment Foundation- LinuxFoundationX (On-going)'
         },
         {
             course: 'Project',
