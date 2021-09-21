@@ -59,14 +59,14 @@ export default{
             desc: 'Worked on data input and electronic data transfer. System backend (C#, Java). Bulk messaging and emailing. Ensuring database security and integrity. Develop IT equipment, process related documents and system applications'
         },
         {
-            firm: 'Production Manager at Narconon Nigeria, Lagos',
-            date: 'Jun 2007 - May 2012',
-            desc: 'Worked to ensure plans execution and task delivery. Developed strategies for events and productivity, and project lead.'
+            firm: 'Information Officer, House of Representative Office, Lagos/ Abuja',
+            date: 'Jun 2009 - May 2012',
+            desc: 'System development. Database design and management. ICT strategy and implementation. Coordinates constituency programs. Special duties and social engagement.'
         },
         {
-            firm: 'Special Assistant, Legislative Arm at Legislator, House of Representative, Lagos/ Abuja',
-            date: 'Jun 2009 - May 2012',
-            desc: 'Coordinates youth empowerment and development programs. Special duties and social engagement.'
+            firm: 'Production Manager at Narconon Nigeria (NGO), Lagos',
+            date: 'Jun 2007 - May 2012',
+            desc: 'Worked to ensure plans execution and task delivery. Developed strategies for events and productivity, and project lead.'
         },
         {
             firm: 'System Administrator at Expert Services, Lagos',
