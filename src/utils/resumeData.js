@@ -39,8 +39,13 @@ export default{
 
     employments:[
         {
+            firm: 'Data Engineer at Cabonline Group, Stockholm',
+            date: 'Nov 2021 - Present',
+            desc: 'Develop algorithms and perform data exploration to transform data to information and knowledge. Acquire quality dataset to build data model for business needs. Design, build, and test data pipeline and database architecture. Create new data validation and data analysis. Ensure compliance with governance and security policies of data. Collaboration with management in achieving company objectives. Agile methodology'
+        },
+        {
             firm: 'Software / Data Specialist at TISV Digital Atlanta, Georgia',
-            date: 'Dec 2018 - Present',
+            date: 'Dec 2018 - Oct 2021',
             desc: 'Quality Assurance Analyst (June,2019 -  Dec.,2019). \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Application Backend (Java, JavaScript). Performing continuous integration and delivery of product quality. Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis.Working with clients to gather requirements. Agile methodology'
         },
         {
