@@ -18,9 +18,9 @@ import ProjectImg from '../assets/Images/profCert_logo.jpg'
 
 export default{
     name: 'Kunle Ibrahim',
-    title: 'Software | Data Engineer',
+    title: 'Data | Software Engineer',
     phone: '0736565835',
-    email: 'klexy2402@gmail.com',
+    email: 'i.olakunle.ibrahim@gmail.com',
     address: 'Björkhultsvägen 6A, 63229 Eskilstuna. Sweden',
 
     socials: {
@@ -35,7 +35,7 @@ export default{
             icon: <GitHubIcon/>
         }
     },
-    about: 'Experienced in design, implementation, installation, testing, QA, and maintenance of software systems. Proficient in different development platforms, programming languages, and information system management. \n\n Experienced with the latest development tools, technologies and procedures. Able to effectively selfmanage during independent projects, as well as collaborate as part of a productive team. \n\n I am good communicator with proven inter-personal skills, highly enthusiastic to learn and undertake new challenges. I speak English as a first language with a working knowledge in Swedish language and possess a full Swedish driving licence class B.',
+    about: 'Experienced in design, implementation, installation, testing, QA, and maintenance of software systems. Proficient in different development platforms, programming languages, and information system management. \n\n Experienced with the latest software development tools, ETL technologies and data management. Able to effectively selfmanage during independent projects, as well as collaborate as part of a productive team. \n\n I am good communicator with proven inter-personal skills, highly enthusiastic to learn and undertake new challenges. I speak English as a first language with a working knowledge in Swedish language and possess a full Swedish driving licence class B.',
 
     employments:[
         {
@@ -105,15 +105,15 @@ export default{
     certificates: [
         {
             title: 'Secure Software Development Fundamentals - LinuxFoundationX',
-            date:  'Expected completion date -  February 2022'
+            date:  'Expected completion date -  October 2022'
         },
         {
             title: 'Unlocking Information Security - TelAvivUniversityX',
-            date:  'Expected completion date -  December 2021'
+            date:  'Expected completion date -  October 2022'
         },
         {
             title: 'Data Engineering with Google Cloud',
-            date:  'Expected completion date -  November 2021'
+            date:  'Expected completion date -  September 2022'
         },
         {
             title: 'Digital Marketing Certificate, Google Fundamental Digital Marketing',
@@ -147,11 +147,11 @@ export default{
     skills: [
         {
             title: 'Programming', 
-            type: ['Java', 'C#', 'JavaScript','Python']    
+            type: ['Python', 'Java', 'C#', 'JavaScript']    
         },
         {
             title: 'Dev-Framework', 
-            type: ['React.js', 'Vue.js', 'Node.js', 'Android Studio', 'Spring Boot & JPA', 'Selenium', 'TeamCity', 'Jenkins', 'Ghostlab']     
+            type: ['React.js', 'Vue.js', 'Node.js', 'Android Studio', 'Spring Boot & JPA', 'JIRA', 'Selenium', 'TeamCity', 'Jenkins', 'Ghostlab']     
         },
         {
             title: 'Database', 
@@ -159,11 +159,11 @@ export default{
         },
         {
             title: 'Data Engineering', 
-            type: [ 'BigQuery', 'Tensorflow', 'GCP']    
+            type: ['ETL', 'BigQuery', 'SQL', 'Datawarehouse', 'Tensorflow']    
         },
         {
             title: 'Analytics Tool', 
-            type: ['Power BI', 'Qlik', 'KNIME - Machine Learning', 'Excel']    
+            type: ['Looker', 'Power BI', 'Qlik', 'KNIME - Machine Learning', 'Excel']    
         },
         {
             title: 'Cloud Computing', 
