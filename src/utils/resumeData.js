@@ -151,15 +151,15 @@ export default{
         },
         {
             title: 'Dev-Framework', 
-            type: ['React.js', 'Vue.js', 'Node.js', 'Android Studio', 'Spring Boot & JPA', 'JIRA', 'Selenium', 'TeamCity', 'Jenkins', 'Ghostlab']     
+            type: ['React.js', 'Vue.js', 'Node.js', '.NET', 'Android Studio', 'Spring Boot & JPA', 'JIRA', 'Selenium']     
         },
         {
             title: 'Database', 
-            type: ['MySQL', 'NoSQL', 'MongoDB']    
+            type: ['MySQL', 'NoSQL', 'MongoDB', 'PostgreSQL']    
         },
         {
             title: 'Data Engineering', 
-            type: ['ETL', 'BigQuery', 'SQL', 'Datawarehouse', 'Tensorflow']    
+            type: ['ETL', 'BigQuery', 'SQL', 'Datawarehouse', 'Tensorflow', 'Terraform', 'Ansible']    
         },
         {
             title: 'Analytics Tool', 
