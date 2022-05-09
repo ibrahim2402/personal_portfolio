@@ -41,7 +41,7 @@ export default{
         {
             firm: 'Data Engineer at Cabonline Group, Stockholm',
             date: 'Nov 2021 - Present',
-            desc: 'Develop algorithms and perform data exploration to transform data to information and knowledge. Acquire quality dataset to build data model for business needs. Design, build, and test data pipeline and database architecture. Create new data validation and data analysis. Ensure compliance with governance and security policies of data. Collaboration with management in achieving company objectives. Agile methodology'
+            desc: 'Develop algorithms and perform data exploration to transform data to information and knowledge. Acquire quality dataset to build data model for business needs. Design, build, and test data pipeline and database architecture (currently with major focus on GCP and other platform as AWS, Azure). Create new data validation and data analysis. Ensure compliance with governance and security policies of data. Collaboration with management in achieving company objectives. Agile methodology'
         },
         {
             firm: 'Software / Data Specialist at TISV Digital Atlanta, Georgia',
