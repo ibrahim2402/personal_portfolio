@@ -46,7 +46,7 @@ export default{
         {
             firm: 'Software / Data Specialist at TISV Digital Atlanta, Georgia',
             date: 'Dec 2018 - Oct 2021',
-            desc: 'Quality Assurance Analyst (June,2019 -  Dec.,2019). \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Application Backend (Java, JavaScript). Performing continuous integration and delivery of product quality. Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis.Working with clients to gather requirements. Agile methodology'
+            desc: 'Quality Assurance Analyst (June,2019 -  Dec.,2019). \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Application Backend (Java, JavaScript). Performing continuous integration and delivery of product quality (CI/CD). Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis, Data protection and Governance. Working with clients to gather requirements. Agile methodology'
         },
         {
             firm: 'Cashier/ Assistant / IT Specialist at Hubertus Restaurant Stockholm',
@@ -59,7 +59,7 @@ export default{
             desc: 'Cleaning and hall management'
         },
         {
-            firm: 'Computer Specialist at Softline Communication Company, Ado Odo/Ota',
+            firm: 'Computer Specialist (Developer) at Softline Communication Company, Ado Odo/Ota',
             date: 'Jun 2006 - Jun 2012',
             desc: 'Worked on data input and electronic data transfer. System backend (C#, Java). Bulk messaging and emailing. Ensuring database security and integrity. Develop IT equipment, process related documents and system applications'
         },
@@ -155,11 +155,11 @@ export default{
         },
         {
             title: 'Database', 
-            type: ['MySQL', 'NoSQL', 'MongoDB', 'PostgreSQL']    
+            type: ['MySQL', 'NoSQL', 'MongoDB', 'PostgreSQL', 'DynamoDB', 'Cosmos DB']    
         },
         {
             title: 'Data Engineering', 
-            type: ['ETL', 'BigQuery', 'SQL', 'Datawarehouse', 'Tensorflow', 'Terraform', 'Ansible']    
+            type: ['ETL', 'BigQuery', 'SQL', 'Datawarehouse', 'Amazon Glue', 'AWS S3', 'Amazon EMR', 'Tensorflow', 'Terraform', 'Ansible', 'CI/CD']    
         },
         {
             title: 'Analytics Tool', 
