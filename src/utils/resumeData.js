@@ -104,11 +104,11 @@ export default{
     ],
     certificates: [
         {
-            title: 'Secure Software Development Fundamentals - LinuxFoundationX',
+            title: 'Unlocking Information Security - TelAvivUniversityX',
             date:  'Expected completion date -  October 2022'
         },
         {
-            title: 'Unlocking Information Security - TelAvivUniversityX',
+            title: 'AWS Certified Solutions Architect: Associate - Amazon',
             date:  'Expected completion date -  October 2022'
         },
         {
