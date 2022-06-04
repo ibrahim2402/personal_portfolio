@@ -39,8 +39,12 @@ export default{
 
     employments:[
         {
+            firm: 'Senior SW | Data Engineer Consultant at Sigma Industry, Eskilstuna',
+            date: 'June 2022 - Present'
+        },
+        {
             firm: 'Data Engineer at Cabonline Group, Stockholm',
-            date: 'Nov 2021 - Present',
+            date: 'Nov 2021 - May 2022',
             desc: 'Develop algorithms and perform data exploration to transform data to information and knowledge. Acquire quality dataset to build data model for business needs. Design, build, and test data pipeline and database architecture (currently with major focus on GCP and other platform as AWS, Azure). Create new data validation and data analysis. Ensure compliance with governance and security policies of data. Collaboration with management in achieving company objectives. Agile methodology'
         },
         {
