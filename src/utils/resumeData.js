@@ -40,17 +40,18 @@ export default{
     employments:[
         {
             firm: 'Senior SW | Data Engineer Consultant at Sigma Industry, Eskilstuna',
-            date: 'June 2022 - Present'
+            date: 'June 2022 - Present',
+            desc: 'Solution Architect | Data Engineer at Volvo Powertrain Production (Ongoing Sigma Assignment). \n \n Design and modify technology architecture. Analysing the technology environment and documenting requirements. Develop, evaluate, disseminate, and integrate new standards, specifications, and technologies into existing processes and methodologies. Build data systems and data pipelines. Ingesting, munging, and prepare data for prescriptive and predictive modelling. Build algorithms and prototypes (PoC). Testing the integration of data export in designed architecture for correct functionality. Identify best and suitable cloud technology services for efficiency to improve overall performance of businesses at all levels. Develop and implement a new automate digital solution for businesses operation. Create a technical vision for a specific solution to a business problem. '
         },
         {
             firm: 'Data Engineer at Cabonline Group, Stockholm',
             date: 'Nov 2021 - May 2022',
-            desc: 'Develop algorithms and perform data exploration to transform data to information and knowledge. Acquire quality dataset to build data model for business needs. Design, build, and test data pipeline and database architecture (currently with major focus on GCP and other platform as AWS, Azure). Create new data validation and data analysis. Ensure compliance with governance and security policies of data. Collaboration with management in achieving company objectives. Agile methodology'
+            desc: 'Developed algorithm and perform data exploration, ingestion, and transformation of data. Acquired quality datasets to build data model for business need. Design, build, and test data pipeline, data architecture, and data warehouse (with major focus on GCP and PoC experience in other platform; AWS, Azure). Tasked with the responsibility of contributing to the continual improvement of the business’s data platforms through his observations and well-researched knowledge. Retrieves and analysed data using SQL, Python, Excel, among other data management systems. Built data loading services for the purpose of importing data from numerous disparate data sources, inclusive of APIs, logs, relational, and non-relational databases. Developed and managed scalable data processing platforms that he uses for exploratory data analysis and real-time analytics. Ensured compliance with governance and security policy of data. Work with business partners and other Tech groups to identify technical needs of the system and determine priority of needs. Analysed, investigated, and resolved problems to help smooth product performance. Tracking the assignment progress through JIRA and version control service like GitHub Repositories. Collaborated with the management in achieving company objectives. Agile methodology'
         },
         {
             firm: 'Software / Data Specialist at TISV Digital Atlanta, Georgia',
             date: 'Dec 2018 - Oct 2021',
-            desc: 'Quality Assurance Analyst (June,2019 -  Dec.,2019). \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Application Backend (Java, JavaScript). Performing continuous integration and delivery of product quality (CI/CD). Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis, Data protection and Governance. Working with clients to gather requirements. Agile methodology'
+            desc: 'Performed extracting, importing, and exporting of data in various database applications. Escalated data issues needing process re-engineering. Managed and maintained data pipeline in both batch and streaming processes. Assisted in implementation, testing, and validating data and software systems. Performed data analysis of key problem areas to assist in root cause analysis. Executed all regular transaction processes necessary to maintain operations records and databases. Performed data reconciliations to identify data anomalies. Audited data on a regular basis to ensure data integrity and quality. Researched and collected data to assist with product development and analysis. \n \n  Quality Assurance Analyst (June,2019 -  Dec.,2019). \n \n Designed test plans, scenarios, scripts, or procedures. Documented software defects, using a bug tracking system, and report defects to software developers. Identified, analysed, and documented problems with program function, output, online screen, or content. Figured out how a system should work and how changes in the future will affect it. Analysed the pros and cons of different options and selected the best option. \n \n System Tester (Dec.,2018 - June,2019). \n \n Developing and architecture training on software systems, systems test to identify failure points and ensure quality software for release to production. Application Backend (Java, JavaScript). Performing continuous integration and delivery of product quality (CI/CD). Retrieving and integrating data between several databases. Working with data quantitative and qualitative analysis, Data protection and Governance. Working with clients to gather requirements. Agile methodology'
         },
         {
             firm: 'Cashier/ Assistant / IT Specialist at Hubertus Restaurant Stockholm',
@@ -63,19 +64,19 @@ export default{
             desc: 'Cleaning and hall management'
         },
         {
-            firm: 'Computer Specialist (Developer) at Softline Communication Company, Ado Odo/Ota',
+            firm: 'Computer Engineer (Developer) at Softline Communication Company, Ado Odo/Ota',
             date: 'Jun 2006 - Jun 2012',
-            desc: 'Worked on data input and electronic data transfer. System backend (C#, Java). Bulk messaging and emailing. Ensuring database security and integrity. Develop IT equipment, process related documents and system applications'
+            desc: 'Worked on data input, data management, and electronic data transfer. System back-end (C#, Java).  Created and maintained technology at the back end of a website (the server, database, and application). Collaborated with team to ensure the application development lifecycle phases are propelled into completion. Bulk messaging and emailing. Ensuring database security and integrity. Created custom components for internal framework. Translated design team’s UX wireframes and mock-ups into responsive, interactive features, using HTML/CSS and JavaScript. Designed computer systems, software scopes, and hardware applications as needed within the organization. Collaborate with system engineer to solve complex problems. Tested systems to ensure company is operating efficiently and overseeing service networks to ensure the security of information shared within the company.'
         },
         {
             firm: 'Information Officer, House of Representative Office, Lagos/ Abuja',
             date: 'Jun 2009 - May 2012',
-            desc: 'System development. Database design and management. ICT strategy and implementation. Coordinates constituency programs. Special duties and social engagement.'
+            desc: 'System development and database design and management (IT development task). ICT strategy and implementation. Special duties and social engagement. Communicate critical information effectively to the public. Represented the parliamentarian at the public and official forums and seminars. Maintained and upheld a good image and identity for the representative at the constituency. Maintained positive relationships with media outlets.'
         },
         {
-            firm: 'Production Manager at Narconon Nigeria (NGO), Lagos',
+            firm: 'Project Manager at Narconon Nigeria (NGO), Lagos',
             date: 'Jun 2007 - May 2012',
-            desc: 'Worked to ensure plans execution and task delivery. Developed strategies for events and productivity, and project lead.'
+            desc: 'Carried out activity and resource planning. Developed strategies for events and productivity and project lead. Coordinate partnership and corroborate UNODC concepts. Organized and motivated the project team. Controlled activities and time management. Saddled with responsibility of cost estimation and developing the budget. Ensured partners satisfaction and objectives fulfilment. Analysed and managed project risk. Managed reports and necessary documentation.'
         },
         {
             firm: 'System Administrator at Expert Services, Lagos',
@@ -129,7 +130,7 @@ export default{
     services:[
         {
            title: 'Develop',
-           desc: 'I am a software and system developer',
+           desc: 'I am a software and devops engineer',
            icon: <DeveloperModeIcon/>
         },
         {
@@ -154,8 +155,8 @@ export default{
             type: ['Python', 'Java', 'C#', 'JavaScript']    
         },
         {
-            title: 'Dev-Framework', 
-            type: ['React.js', 'Vue.js', 'Node.js', '.NET', 'Android Studio', 'Spring Boot & JPA', 'JIRA', 'Selenium']     
+            title: 'Dev-Framework-Automation', 
+            type: ['React.js', 'Vue.js', 'Node.js', '.NET', 'Android Studio', 'Spring Boot & JPA', 'JIRA', 'Jenkins', 'Nagios', 'Selenium']     
         },
         {
             title: 'Database', 
@@ -163,7 +164,7 @@ export default{
         },
         {
             title: 'Data Engineering', 
-            type: ['ETL', 'BigQuery', 'SQL', 'Datawarehouse', 'Amazon Glue', 'AWS S3', 'Amazon EMR', 'Tensorflow', 'Terraform', 'Ansible', 'CI/CD']    
+            type: ['ETL', 'BigQuery', 'Dataflow', 'Dataprep', 'Cloud Storage', 'Cloud Function', 'SQL', 'Datawarehouse', 'Azure Data Factory', 'Azure Data Lake', 'SSAS', 'Amazon Glue', 'AWS S3', 'Amazon EMR', 'Tensorflow', 'Terraform', 'Ansible', 'CI/CD']    
         },
         {
             title: 'Analytics Tool', 
