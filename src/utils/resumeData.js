@@ -109,12 +109,12 @@ export default{
     ],
     certificates: [
         {
-            title: 'Unlocking Information Security - TelAvivUniversityX',
-            date:  'Expected completion date -  October 2022'
+            title: 'Cubersecurity Analyst - IBM',
+            date:  'Expected completion date -  November 2024'
         },
         {
-            title: 'AWS Certified Solutions Architect: Associate - Amazon',
-            date:  'Expected completion date -  October 2022'
+            title: 'Azure Certified Solutions Architect Expert',
+            date:  'Expected completion date -  August 2024'
         },
         {
             title: 'Data Engineering with Google Cloud',
@@ -331,12 +331,12 @@ export default{
         {
             course: 'Certified',
             image: <CertImg/>,
-            title: 'Unlocking Information Security - TelAvivUniversityX (On-going)'
+            title: 'Cybersecurity Analyst - IBM (On-going)'
         },
         {
             course: 'Certified',
             image: <CertImg/>,
-            title: 'Secure Software Deveopment Foundation- LinuxFoundationX (On-going)'
+            title: 'Azure Certified Solution Architect Expert - Microsoft (On-going)'
         },
         {
             course: 'Project',
